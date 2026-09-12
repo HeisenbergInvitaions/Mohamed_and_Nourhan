@@ -112,11 +112,11 @@ body.ar .section-title,body.ar h2,body.ar h3,body.ar h4,body.ar .hero-names,body
 }
 
 .hero-names .ampersand{
-  margin-left:170px;
+  margin-left:100px;
 }
 
 .hero-nourhan{
-  margin-left:190px;
+  margin-left:120px;
 }
 .ampersand{font-family:var(--font-serif);font-style:italic;font-size:0.45em;color:var(--blush);line-height:1.4;display:block;}
 .hero-divider{display:flex;align-items:center;gap:1rem;width:min(260px,65vw);}
@@ -537,7 +537,7 @@ let animationFrame;
 function autoScroll() {
   if (!scrolling) return;
 
-  window.scrollBy(0, 0.5);
+  window.scrollBy(0, 0.7);
 
   if (window.innerHeight + window.scrollY < document.documentElement.scrollHeight) {
     animationFrame = requestAnimationFrame(autoScroll);
